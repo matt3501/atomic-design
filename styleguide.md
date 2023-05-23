@@ -23,7 +23,7 @@ Hey! Here comes a blockquote!
 
 Profound, eh? How about an image?
 
-{% include figure.html src="../images/content/devices.jpg" caption="This is an image with a caption. A caption describes what the image is all about." %}
+{% include figure.html src="images/content/devices.jpg" caption="This is an image with a caption. A caption describes what the image is all about." %}
 
 #### This is a fourth-level heading
 

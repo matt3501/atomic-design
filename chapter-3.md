@@ -41,7 +41,7 @@ Let's walk through these points, starting with the term *static site generator*.
 So what does Pattern Lab look like out of the box? Drumroll, please.
 
 <figure>
-    <img src="../images/content/pattern-lab-default.png" alt="One default Pattern Lab dashboard. What it lacks in good looks, it makes up for in utility." />
+    <img src="images/content/pattern-lab-default.png" alt="One default Pattern Lab dashboard. What it lacks in good looks, it makes up for in utility." />
 	<figcaption>
 	    One default Pattern Lab dashboard. What it lacks in good looks, it makes up for in utility.
 	</figcaption>
@@ -57,7 +57,7 @@ If that all sounded like gibberish to you, don't worry. This chapter focuses on 
 To understand the core concept behind Pattern Lab, you need to understand Russian nesting dolls.
 
 <figure>
-    <img src="../images/content/russian-nesting-dolls.jpg" alt="Russian nesting dolls" />
+    <img src="images/content/russian-nesting-dolls.jpg" alt="Russian nesting dolls" />
 	<figcaption>
 	    Russian nesting dolls. Image credit: <a href='https://www.flickr.com/photos/tromal/6901848291/'>Tromal on Flickr</a>
 	</figcaption>
@@ -78,7 +78,7 @@ To make this happen, Pattern Lab uses the *include* feature of [Mustache](https:
 This is Mustache code, in case the double curly braces ({% raw %}`{{}}`{% endraw %}) that look like little mustaches didn't give it away. The greater-than symbol (`>`) is Mustache's way of telling Pattern Lab to include an atom pattern called "thumbnail". Pattern Lab will go searching through its folders of patterns to find an atom named "thumbnail".
 
 <figure>
-    <img src="../images/content/pattern-lab-file-structure.png" alt="This is what Pattern Lab's patterns folder structure can look like. You can name and categorize these folders however you'd like, including changing the labels “atoms”, “molecules”, and “organisms”, “templates”, and ”pages”. The most important consideration is to establish naming and categorization that is most effective for your team." />
+    <img src="images/content/pattern-lab-file-structure.png" alt="This is what Pattern Lab's patterns folder structure can look like. You can name and categorize these folders however you'd like, including changing the labels “atoms”, “molecules”, and “organisms”, “templates”, and ”pages”. The most important consideration is to establish naming and categorization that is most effective for your team." />
 	<figcaption>
 	    This is what Pattern Lab's patterns folder structure can look like. You can name and categorize these folders however you'd like, including changing the labels “atoms”, “molecules”, and “organisms”, “templates”, and ”pages”. The most important consideration is to establish naming and categorization that is most effective for your team.
 	</figcaption>
@@ -87,7 +87,7 @@ This is Mustache code, in case the double curly braces ({% raw %}`{{}}`{% endraw
 Now that we know what an include looks like, let's put it into practice and take a look at a few patterns from a website I helped make for Time Inc. Here's one reusable pattern we designed:
 
 <figure>
-    <img src="../images/content/pattern-lab-molecule.png" alt="For Time Inc.'s website, we created a basic block molecule consisting of a thumbnail image, headline, and excerpt." />
+    <img src="images/content/pattern-lab-molecule.png" alt="For Time Inc.'s website, we created a basic block molecule consisting of a thumbnail image, headline, and excerpt." />
 	<figcaption>
 	    For Time Inc.'s website, we created a basic block molecule consisting of a thumbnail image, headline, and excerpt.
 	</figcaption>
@@ -116,7 +116,7 @@ Now that our pattern markup is established, we can include that chunk of code in
 Now let's move up to more complex organisms like the website's header, which looks a little something like this:
 
 <figure>
-    <img src="../images/content/organism-timeinc-header.png" alt="The website header consists of fairly common conventions like a logo atom, primary navigation molecule, and a search form molecule." />
+    <img src="images/content/organism-timeinc-header.png" alt="The website header consists of fairly common conventions like a logo atom, primary navigation molecule, and a search form molecule." />
 	<figcaption>
 	    The website header consists of fairly common conventions like a logo atom, primary navigation molecule, and a search form molecule.
 	</figcaption>
@@ -143,7 +143,7 @@ And now we can include that relatively complex pattern anywhere we need it.
 I hope by now you can see the Russian nesting dolls in action. The smallest atoms are included in bigger molecules, and those molecules get included in even bigger organisms. Now let's take these components and plug them into a layout. Take the homepage template, for instance:
 
 <figure>
-    <img src="../images/content/template-timeinc-homepage-long.png" alt="The Time Inc. homepage template consists of a few repeatable patterns: a global header, a hero area, a few sections (containing an image, headline, excerpt, and call to action), an area featuring four items, a factoid area, and a global footer." />
+    <img src="images/content/template-timeinc-homepage-long.png" alt="The Time Inc. homepage template consists of a few repeatable patterns: a global header, a hero area, a few sections (containing an image, headline, excerpt, and call to action), an area featuring four items, a factoid area, and a global footer." />
 	<figcaption>
 	    The Time Inc. homepage template consists of a few repeatable patterns: a global header, a hero area, a few sections (containing an image, headline, excerpt, and call to action), an area featuring four items, a factoid area, and a global footer.
 	</figcaption>
@@ -202,7 +202,7 @@ It's important to articulate the underlying content structure of UI patterns wit
 To demonstrate how Pattern Lab dynamically swaps in real content into templates, let's take a look at a side-by-side comparison of Time Inc.'s homepage template and page levels:
 
 <figure>
-    <img src="../images/content/timeinc-template-page.png" alt="A side-by-side comparison of Time Inc.'s homepage template and page levels. The template articulates the content structure of the design system, while the page shows what the system looks like with real content displayed by it." />
+    <img src="images/content/timeinc-template-page.png" alt="A side-by-side comparison of Time Inc.'s homepage template and page levels. The template articulates the content structure of the design system, while the page shows what the system looks like with real content displayed by it." />
 	<figcaption>
 	    A side-by-side comparison of Time Inc.'s homepage template and page levels. The template articulates the content structure of the design system, while the page shows what the system looks like with real content displayed by it.
 	</figcaption>
@@ -229,7 +229,7 @@ For developers, this type of format most likely looks familiar. If you're not a 
 Once those objects are defined, we can then override their attributes at Pattern Lab's page level. This is accomplished by creating a new JSON file that matches the page pattern name (for Time Inc.'s homepage, we'll call it _00-homepage.json_) inside the _/pages_ directory.
 
 <figure>
-    <img src="../images/content/timeinc-page-directory.png" alt="Inside the ‘pages’ directory we have the homepage pattern as well as a JSON file that matches the name of the pattern. This is where we'll override the default content with page-specific content." />
+    <img src="images/content/timeinc-page-directory.png" alt="Inside the ‘pages’ directory we have the homepage pattern as well as a JSON file that matches the name of the pattern. This is where we'll override the default content with page-specific content." />
 	<figcaption>
 	    Inside the ‘pages’ directory we have the homepage pattern as well as a JSON file that matches the name of the pattern. This is where we'll override the default content with page-specific content.
 	</figcaption>
@@ -267,7 +267,7 @@ How do we address all manner of UI variation without exhausting ourselves in the
 Let's say we're making an app whose dashboard displays a list of project collaborators. The UI might look something like this:
 
 <figure>
-    <img src="../images/content/pseudo-pattern-normal.jpg" alt="{{ include.caption }}" />
+    <img src="images/content/pseudo-pattern-normal.jpg" alt="{{ include.caption }}" />
 	<figcaption>
 	    A list of project collaborators in our hypothetical app.
 	</figcaption>
@@ -303,7 +303,7 @@ To create the dynamic content inside each of these blocks, we'll define our list
 By default, our design assumes the user is a regular user and not an administrator, but what if we wanted to give administrators the ability to manage project collaborators from the dashboard? That UI might look something like this:
 
 <figure>
-    <img src="../images/content/pseudo-pattern-admin.jpg" alt="The administrator's dashboard UI introduces extra edit and delete actions." />
+    <img src="images/content/pseudo-pattern-admin.jpg" alt="The administrator's dashboard UI introduces extra edit and delete actions." />
 	<figcaption>
 	    The administrator's dashboard UI introduces extra edit and delete actions.
 	</figcaption>
@@ -361,21 +361,21 @@ The tool is called *ish.* because selecting the small button results in a small-
 Ish. is baked into Pattern Lab, which means we can view our UIs and their underlying patterns across the entire resolution spectrum.
 
 <figure>
-    <img src="../images/content/ish-s.png" alt="Pattern Lab displaying a design in a small-ish viewport." />
+    <img src="images/content/ish-s.png" alt="Pattern Lab displaying a design in a small-ish viewport." />
 	<figcaption>
 	    Pattern Lab displaying a design in a small-ish viewport.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="../images/content/ish-m.png" alt="Pattern Lab displaying a design in a medium-ish viewport." />
+    <img src="images/content/ish-m.png" alt="Pattern Lab displaying a design in a medium-ish viewport." />
 	<figcaption>
 	    Pattern Lab displaying a design in a medium-ish viewport.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="../images/content/ish-l.png" alt="Pattern Lab displaying a design in a large-ish viewport." />
+    <img src="images/content/ish-l.png" alt="Pattern Lab displaying a design in a large-ish viewport." />
 	<figcaption>
 	    Pattern Lab displaying a design in a large-ish viewport.
 	</figcaption>
@@ -389,7 +389,7 @@ A common pattern library feature is the ability to peek under the hood and view 
 The types of code to be highlighted in a pattern library naturally vary from organization to organization, in order to meet the requirements of the vast array of environments, technologies, and conventions used. Most [pattern libraries out there in the wild](http://styleguides.io/examples.html) demonstrate a pattern's underlying HTML, while others also include pattern-specific CSS and JavaScript. Salesforce's Lightning design system, for example, shows a pattern's HTML as well as all the (S)CSS pertaining to that pattern.
 
 <figure>
-    <img src="../images/content/salesforce-code-example.png" alt="Salesforce's Lightning design system showcases the UI components' HTML and SCSS code." />
+    <img src="images/content/salesforce-code-example.png" alt="Salesforce's Lightning design system showcases the UI components' HTML and SCSS code." />
 	<figcaption>
 	    Salesforce's Lightning design system showcases the UI components' HTML and SCSS code.
 	</figcaption>
@@ -398,7 +398,7 @@ The types of code to be highlighted in a pattern library naturally vary from org
 Including front-end code leads to authors writing it more consistently, but that doesn't guarantee perfection. There's still room for developers to go rogue and write sloppy, incongruent code—which is why some organizations have gone above and beyond to establish incredibly sophisticated design systems. Companies like Lonely Planet have achieved the holy grail of pattern libraries, which is to say **their pattern library and production environment are perfectly in sync**. We'll discuss the holy grail in more detail in chapter 5, but it's worth bringing up in this section to demonstrate how that affects the code exposed in the context of a pattern library. Rather than offering HTML and CSS, Lonely Planet's [Rizzo style guide](http://rizzo.lonelyplanet.com/) surfaces the include code for teams to pull in the appropriate UI component.
 
 <figure>
-    <img src="../images/content/lonely-planet-code.png" alt="Lonely Planet's Rizzo design system pattern library showcases the template usage." />
+    <img src="images/content/lonely-planet-code.png" alt="Lonely Planet's Rizzo design system pattern library showcases the template usage." />
 	<figcaption>
 	    Lonely Planet's Rizzo design system pattern library showcases the template usage.
 	</figcaption>
@@ -409,7 +409,7 @@ This setup allows the core development team to maintain a single source of truth
 Pattern Lab provides the ability to view both a pattern's underlying HTML and the template code used to generate the HTML. It can also be extended to showcase accompanying CSS and JavaScript code.
 
 <figure>
-    <img src="../images/content/pattern-lab-code.png" alt="Pattern Lab's code view demonstrates both a pattern's template code and the compiled HTML." />
+    <img src="images/content/pattern-lab-code.png" alt="Pattern Lab's code view demonstrates both a pattern's template code and the compiled HTML." />
 	<figcaption>
 	    Pattern Lab's code view demonstrates both a pattern's template code and the compiled HTML.
 	</figcaption>
@@ -425,7 +425,7 @@ This shouldn't be the case. A UI's documentation should contain insights from ev
 Pattern Lab provides several ways to add pattern descriptions and annotations to a design system. Pattern descriptions can be added by creating a Markdown file that corresponds to the name of a pattern (e.g. _pattern-name.md_), which will show the pattern description in the library list view.
 
 <figure>
-    <img src="../images/content/pattern-lab-annotations-2.png" alt="Pattern Lab displays important pattern documentation right alongside the living pattern examples, which helps teams communicate definitions, usage, examples, outside resources, and more." />
+    <img src="images/content/pattern-lab-annotations-2.png" alt="Pattern Lab displays important pattern documentation right alongside the living pattern examples, which helps teams communicate definitions, usage, examples, outside resources, and more." />
 	<figcaption>
 	    Pattern Lab displays important pattern documentation right alongside the living pattern examples, which helps teams communicate definitions, usage, examples, outside resources, and more.
 	</figcaption>
@@ -434,7 +434,7 @@ Pattern Lab provides several ways to add pattern descriptions and annotations to
 Pattern Lab also provides a (dare I say) cool feature that enables you to attach annotations to any UI element and view those annotations in the context of the living, breathing design. When annotations are switched on, each annotated element receives a number which, when clicked, jumps you to the corresponding annotation. This allows teams to view pattern considerations within the context of the full UI. Pretty neat!
 
 <figure>
-    <img src="../images/content/pattern-lab-annotations-1.png" alt="Pattern Lab's annotation feature is interactive and baked into the living UI." />
+    <img src="images/content/pattern-lab-annotations-1.png" alt="Pattern Lab's annotation feature is interactive and baked into the living UI." />
 	<figcaption>
 	    Pattern Lab's annotation feature is interactive and baked into the living UI.
 	</figcaption>
@@ -446,7 +446,7 @@ When looking at various patterns in a library, I've found myself wondering, "Gre
 Thanks to the Russian nesting doll include approach described earlier, Pattern Lab can display what patterns make up any given component, and also show where those patterns are employed in the design system.
 
 <figure>
-    <img src="../images/content/pattern-lab-lineage.png" alt="Pattern Lab's lineage feature displays what patterns make up any component, and also shows all the places that component is employed." />
+    <img src="images/content/pattern-lab-lineage.png" alt="Pattern Lab's lineage feature displays what patterns make up any component, and also shows all the places that component is employed." />
 	<figcaption>
 	    Pattern Lab's lineage feature displays what patterns make up any component, and also shows all the places that component is employed.
 	</figcaption>

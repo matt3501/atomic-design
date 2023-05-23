@@ -11,7 +11,7 @@ And they made a design system, delivered a style guide, and lived happily ever a
 Not quite.
 
 <figure>
-    <img src="../images/content/trash-can.jpg" alt="A pattern library in the trash can alongside a PSD and PDF file" />
+    <img src="images/content/trash-can.jpg" alt="A pattern library in the trash can alongside a PSD and PDF file" />
 </figure>
 
 There's a very real risk that a style guide will end up in the trash can right alongside all the PSDs, PDFs and those other static artifacts of the design process. Despite everyone's best intentions, all the time and effort that went into making a thoughtful design system and style guide can go straight down the drain.
@@ -29,7 +29,7 @@ We've already discussed the importance of resetting everyone's expectations to e
 We *think* we merely design and build websites and apps. And that's true for the most part. After all, that's what our clients pay us to do, and the products we create are the vehicles that generate money and success for our organizations. It seems natural to focus on the final implementations rather than the underlying system. The live products remain the primary focus of everyone's attention, while any pattern library exists as an offshoot that simply provides helpful documentation.
 
 <figure>
-    <img src="../images/content/workflow-website-first.png" alt="" />
+    <img src="images/content/workflow-website-first.png" alt="" />
 </figure>
 
 The problem with this mindset is that you can almost see that pattern library snapping off and sliding into the abyss. **Once the pattern library ceases to reflect the current state of the products it serves, it becomes obsolete.** And when the pattern library managing the design system is no longer accurate, the website maintenance process devolves into a smattering of hotfixes and ad hoc changes, ruining all the thoughtfulness that went into creating the original design system.
@@ -37,7 +37,7 @@ The problem with this mindset is that you can almost see that pattern library sn
 To set ourselves up for long-term success, we must fundamentally shift our outlook around what we’re actually creating. Rather than thinking of final applications as our sole responsibility, we must recognize that the design system is what underpins our final products *and* pattern libraries.
 
 <figure>
-    <img src="../images/content/workflow-system-first.png" alt="" />
+    <img src="images/content/workflow-system-first.png" alt="" />
 </figure>
 
 This "design system first" mentality inserts a bit of friction into the maintenance process, and that **friction can be friendly**. It forces us to step back and consider how any improvements, client requests, feature additions, and iterations affect the overall system rather than only a sliver of the whole ecosystem.
@@ -116,7 +116,7 @@ They're likely right. It would be ideal if the entire organization adopted nimbl
 **The design system <em>makers</em> are the ones who create, maintain, and govern the system**, and they need to work closely together to ensure that the system is smart, flexible, scalable, and addresses the needs of the users and business. **The design system <em>users</em> are the teams across the organization who will take the system and employ its interface patterns to specific applications.**
 
 <figure>
-    <img src="../images/content/makers-users.png" alt="Design system makers and users." />
+    <img src="images/content/makers-users.png" alt="Design system makers and users." />
 	<figcaption>
 	    Design system makers and users.
 	</figcaption>
@@ -153,7 +153,7 @@ Design system users may be the same team creating the design system, separate de
 Users' proximity to and involvement in the creation of the design system will undoubtedly vary. You may work on a singular product at a scrappy startup, so your small team could be simultaneously creating and using the design system. Or you may work at a large multinational corporation with development teams and third-party partners scattered all across the globe. If this is the case, design system makers and users may seldom (or ever) meet, which means that helpful documentation and a sharp birds-eye perspective become that much more important.
 
 <figure>
-    <img src="../images/content/spectrum.png" alt="There is a spectrum of potential relationships between design system users and makers, and the size and makeup of your company will undoubtedly shape those relationships." />
+    <img src="images/content/spectrum.png" alt="There is a spectrum of potential relationships between design system users and makers, and the size and makeup of your company will undoubtedly shape those relationships." />
 	<figcaption>
 	    There is a spectrum of potential relationships between design system users and makers, and the size and makeup of your company will undoubtedly shape those relationships.
 	</figcaption>
@@ -201,7 +201,7 @@ Developing a strategy for handling pattern changes is crucial, which is why Inay
 The result is a gorgeous decision tree that maps out exactly what processes need to happen to add a new pattern to the design system.
 
 <figure>
-    <img src="../images/content/pattern-addition-flowchart.png" alt="The Canonical web team mapped out the decision process used to manage updates and additions to patterns in the Vanilla front-end framework." />
+    <img src="images/content/pattern-addition-flowchart.png" alt="The Canonical web team mapped out the decision process used to manage updates and additions to patterns in the Vanilla front-end framework." />
 	<figcaption>
 	    The Canonical web team mapped out the decision process used to manage updates and additions to patterns in the Vanilla front-end framework.
 	</figcaption>
@@ -239,7 +239,7 @@ Many systems fall into a state of disrepair because the effort required to make 
 **The design system holy grail involves creating an environment where the pattern library and live applications are perfectly in sync.** The idea is that you should be able to make a change to a UI pattern and see that change automatically reflected in both the pattern library *and* anywhere the pattern is included in production.
 
 <figure>
-    <img src="../images/content/workflow-system-first-holy-grail.png" alt="The holy grail of design systems is an environment where making changes to a UI pattern updates both the pattern library and production applications simultaneously." />
+    <img src="images/content/workflow-system-first-holy-grail.png" alt="The holy grail of design systems is an environment where making changes to a UI pattern updates both the pattern library and production applications simultaneously." />
 	<figcaption>
 	    The holy grail of design systems is an environment where making changes to a UI pattern updates both the pattern library and production applications simultaneously.
 	</figcaption>
@@ -250,7 +250,7 @@ This technique removes any duplication of effort and ensures the pattern library
 As it turns out, this dream can be a reality. Lonely Planet, the travel guide company, was one of the first to establish a holy grail design system called [Rizzo](http://rizzo.lonelyplanet.com/). Through some smart architecture, they created an API for their UI patterns that feeds into their production environment as well as their pattern library. The result is a centralized design system that ensures their live application and documentation remain perfectly in sync.
 
 <figure>
-    <img src="../images/content/rizzo.png" alt="Lonely Planet created an API for its UI patterns that is consumed by both their pattern library and production environment. By constructing their design system in this manner, changes to UI patterns are automatically reflected in both the pattern library and production environment." />
+    <img src="images/content/rizzo.png" alt="Lonely Planet created an API for its UI patterns that is consumed by both their pattern library and production environment. By constructing their design system in this manner, changes to UI patterns are automatically reflected in both the pattern library and production environment." />
 	<figcaption>
 	    Lonely Planet created an API for its UI patterns that is consumed by both their pattern library and production environment. By constructing their design system in this manner, changes to UI patterns are automatically reflected in both the pattern library and production environment.
 	</figcaption>
@@ -278,7 +278,7 @@ Using HTML templating languages (such as Mustache, Handlebars, Twig, Underscore,
 **The templating language can serve as the bridge between your pattern library and production environments.** If you use a templating language to create the patterns in your design system (something we discussed at length in chapter 3), you can easily share those patterns with production environments that utilize the same templating engine.
 
 <figure>
-    <img src="../images/content/templating-language-bridge.png" alt="A templating language like Mustache, Handlebars, Underscore, Jade, and others can serve as a bridge that allows front-end code to be shared between the pattern library and production application." />
+    <img src="images/content/templating-language-bridge.png" alt="A templating language like Mustache, Handlebars, Underscore, Jade, and others can serve as a bridge that allows front-end code to be shared between the pattern library and production application." />
 	<figcaption>
 	    A templating language like Mustache, Handlebars, Underscore, Jade, and others can serve as a bridge that allows front-end code to be shared between the pattern library and production application.
 	</figcaption>
@@ -293,7 +293,7 @@ The team at Phase2 Technology achieved the holy grail by using Pattern Lab as th
 You may have read that last section and thought, "That's amazing! My company needs this now!" While holy grail systems are indeed great, there are reasons why you may *not* be able to automagically keep your production environments and pattern library in sync. Perhaps your organization creates tons of digital products on many different platforms using wildly different technologies. Maybe you're a giant multinational company scattered all over the world. Maybe your company has an extremely decentralized, autonomous culture. Or maybe you're a gigantic federal government.
 
 <figure>
-    <img src="../images/content/styleguide-draft.png" alt="The Draft U.S. Web Design Standards are the design system for the United States federal government." />
+    <img src="images/content/styleguide-draft.png" alt="The Draft U.S. Web Design Standards are the design system for the United States federal government." />
 	<figcaption>
 	    The Draft U.S. Web Design Standards are the design system for the United States federal government.
 	</figcaption>
@@ -311,7 +311,7 @@ Style guides often jump straight into code snippets and pattern usage for the be
 Take the carousel (please!). This component is amazingly complex from an organizational standpoint. A homepage carousel on an e-commerce website requires input from a host of disciplines across the organization. Business owners and editorial staff must choose products to be featured in the carousel. Copywriters must ensure the copy is effective and stays within the constraints of the design. Art directors need to make certain the aesthetic design is pleasing and the product photography is legible across every screen size. UX designers have to confirm the functionality and controls are intuitive. Front-end people must be sure the component is responsive, accessible, and performant. Back-end developers need to ensure the component is properly wired up to the back-end system. You get the idea.
 
 <figure>
-    <img src="../images/content/walmart-carousel.png" alt="A homepage carousel on a site like Walmart requires input from many different disciplines and stakeholders. A style guide can help gather those different perspectives under one roof." />
+    <img src="images/content/walmart-carousel.png" alt="A homepage carousel on a site like Walmart requires input from many different disciplines and stakeholders. A style guide can help gather those different perspectives under one roof." />
 	<figcaption>
 	    A homepage carousel on a site like Walmart requires input from many different disciplines and stakeholders. A style guide can help gather those different perspectives under one roof.
 	</figcaption>
@@ -323,7 +323,7 @@ A well-crafted style guide can help manage all these moving parts and ensure the
 It should come as a surprise to no one that people tend to gravitate towards attractive things. A big part of making a style guide a cross-disciplinary resource is ensuring the container that houses your pattern library and other documentation is good-looking, inviting, and easy to navigate.
 
 <figure>
-    <img src="../images/content/styleguide-yelp.png" alt="Yelp's style guide has an attractive, friendly front page that explains what the resource is, who it's for, and how to use it." />
+    <img src="images/content/styleguide-yelp.png" alt="Yelp's style guide has an attractive, friendly front page that explains what the resource is, who it's for, and how to use it." />
 	<figcaption>
 	    Yelp's style guide has an attractive, friendly front page that explains what the resource is, who it's for, and how to use it.
 	</figcaption>
@@ -360,7 +360,7 @@ The tactics for this communication can vary from nuts-and-bolts utilities to mor
 Having a base for all these materials is a great idea, and keeping them adjacent to (or even within) the style guide itself makes a lot of sense as well.
 
 <figure>
-    <img src="../images/content/material-design-changelog.png" alt="The material design team publishes a handy changelog within its style guide so users can easily learn about the latest updates and improvements to the system." />
+    <img src="images/content/material-design-changelog.png" alt="The material design team publishes a handy changelog within its style guide so users can easily learn about the latest updates and improvements to the system." />
 	<figcaption>
 	    The material design team publishes a handy changelog within its style guide so users can easily learn about the latest updates and improvements to the system.
 	</figcaption>
@@ -392,7 +392,7 @@ Users will undoubtedly have questions or encounter issues once they get up and r
 - **Outreach**: Not everyone has the time or the personality to ask questions and suggest changes. Design system makers should be proactive and reach out to developers using the design system to see if they have any issues or concerns. These kinds of actions can help build a genuine and positive relationship between makers and users.
 
 <figure>
-    <img src="../images/content/draft-github.png" alt="The Draft U.S. Web Digital Standards system tracks issues using GitHub, providing a place for users and makers to file bugs and have conversations about the nitty-gritty." />
+    <img src="images/content/draft-github.png" alt="The Draft U.S. Web Digital Standards system tracks issues using GitHub, providing a place for users and makers to file bugs and have conversations about the nitty-gritty." />
 	<figcaption>
 	    The Draft U.S. Web Digital Standards system tracks issues using GitHub, providing a place for users and makers to file bugs and have conversations about the nitty-gritty.
 	</figcaption>
@@ -416,7 +416,7 @@ Why? Isn't a style guide merely an internal resource to help people in your orga
 Putting your style guide behind a login or firewall reduces visibility and adds an unnecessary burden to your team and partners, which limits the resource's effectiveness and potential. And the fears about giving away your trade secrets are completely unfounded. These are UI patterns, not nuclear codes.
 
 <figure>
-    <img src="../images/content/styleguides-examples.png" alt="Styleguides.io rounds up over 150 public-facing style guides from organizations across the world." />
+    <img src="images/content/styleguides-examples.png" alt="Styleguides.io rounds up over 150 public-facing style guides from organizations across the world." />
 	<figcaption>
 	    Styleguides.io rounds up over 150 public-facing style guides from organizations across the world.
 	</figcaption>
@@ -434,7 +434,7 @@ Since joining Salesforce, she's helped create the ultra-successful Lightning Des
 A visible, cross-disciplinary, approachable pattern library is one that your team will come back to again and again. Use that to your advantage. Since the team's eyeballs are already fixated on that one resource, there's a big opportunity to extend it to include other helpful documentation like the voice and tone, brand, code, design principles and writing guidelines we discussed in [chapter 1](/chapter-1/).
 
 <figure>
-    <img src="../images/content/styleguide-harmony.png" alt="Intuit's Harmony design system includes a pattern library, design principles, voice and tone, marketing guidelines, and more. Housing this helpful documentation under one roof helps increase its visibility and effectiveness." />
+    <img src="images/content/styleguide-harmony.png" alt="Intuit's Harmony design system includes a pattern library, design principles, voice and tone, marketing guidelines, and more. Housing this helpful documentation under one roof helps increase its visibility and effectiveness." />
 	<figcaption>
 	    Intuit's Harmony design system includes a pattern library, design principles, voice and tone, marketing guidelines, and more. Housing this helpful documentation under one roof helps increase its visibility and effectiveness.
 	</figcaption>
@@ -445,7 +445,7 @@ Now, your organization may not need to implement every flavor of style guide out
 Another way to extend the functionality of the pattern library is to include guidelines for native platform patterns alongside web-based patterns. We can look to Intuit's Harmony design system once again for an example of how native mobile platform patterns for iOS and Android can live beside their web-based counterparts.
 
 <figure>
-    <img src="../images/content/styleguide-harmony-2.png" alt="Intuit's Harmony pattern library includes buttons to switch between web, iOS, and Android for each pattern. This allows the team to maintain a mostly consistent design system across platforms but also document pattern divergences when they occur." />
+    <img src="images/content/styleguide-harmony-2.png" alt="Intuit's Harmony pattern library includes buttons to switch between web, iOS, and Android for each pattern. This allows the team to maintain a mostly consistent design system across platforms but also document pattern divergences when they occur." />
 	<figcaption>
 	    Intuit's Harmony pattern library includes buttons to switch between web, iOS, and Android for each pattern. This allows the team to maintain a mostly consistent design system across platforms but also document pattern divergences when they occur.
 	</figcaption>
@@ -461,7 +461,7 @@ Another challenge for naming *display* patterns is that we tend to get distracte
 Fair warning: **naming things is really freaking hard**. But there are strategies to help you create robust names for your patterns. Conducting an interface inventory ([as detailed in chapter 4](/chapter-4/#show-dont-tell-the-power-of-interface-inventories)) helps remove patterns from the context of the page where they normally reside, meaning your team can create names that aren't distracted by their context. I've conducted naming exercises with teams where we've blurred out the content residing inside a pattern so everyone can focus on the pattern's *structure* rather than the *content* that lives inside it.
 
 <figure>
-    <img src="../images/content/modal-blur.png" alt="A good exercise when naming patterns is to blur out the content so your names reflect the patterns' structures rather than the content living inside them." />
+    <img src="images/content/modal-blur.png" alt="A good exercise when naming patterns is to blur out the content so your names reflect the patterns' structures rather than the content living inside them." />
 	<figcaption>
 	    A good exercise when naming patterns is to blur out the content so your names reflect the patterns' structures rather than the content living inside them.
 	</figcaption>
@@ -475,7 +475,7 @@ Showcasing UI patterns in a pattern library is all well and good, but **you need
 One way to demonstrate context might include showing screenshots or videos of a component in action. Material design's documentation does a fantastic job at this; each component is rich with photos, videos, and usage details to give users a clear understanding of what these patterns look like in the context of an application, and demonstrate how each pattern should be used.
 
 <figure>
-    <img src="../images/content/material-design-bottom-nav.png" alt="Material design's component library doesn't just contain an example of each component; it thoroughly documents the component's usage with plenty of images and videos to support it." />
+    <img src="images/content/material-design-bottom-nav.png" alt="Material design's component library doesn't just contain an example of each component; it thoroughly documents the component's usage with plenty of images and videos to support it." />
 	<figcaption>
 	    Material design's component library doesn't just contain an example of each component; it thoroughly documents the component's usage with plenty of images and videos to support it.
 	</figcaption>
@@ -484,7 +484,7 @@ One way to demonstrate context might include showing screenshots or videos of a 
 Another way to show context is to provide lineage information for each pattern. As we discussed in Chapter 3, a tool like Pattern Lab automatically generates this information, letting you see which patterns make up any given component in addition to showing where each component is employed. This provides a sort of pattern paper trail that helps immensely with QA efforts, as it highlights exactly which patterns and templates would need to be tested if changes were made to a particular pattern.
 
 <figure>
-    <img src="../images/content/pattern-lab-lineage.png" alt="Tools like Pattern Lab provide lineage information, allowing teams to see which smaller components are included in any given component, as well as where each pattern gets used." />
+    <img src="images/content/pattern-lab-lineage.png" alt="Tools like Pattern Lab provide lineage information, allowing teams to see which smaller components are included in any given component, as well as where each pattern gets used." />
 	<figcaption>
 	    Tools like Pattern Lab provide lineage information, allowing teams to see which smaller components are included in any given component, as well as where each pattern gets used.
 	</figcaption>
@@ -494,7 +494,7 @@ Another way to show context is to provide lineage information for each pattern. 
 Making a design system is an incredibly and important endeavor. But without proper maintenance, the value of your design system will depreciate much like a car that's just been driven off the dealer's lot. Instead, your design system should be like a bottle of fine wine that increases in value over time.
 
 <figure>
-    <img src="../images/content/wine-car-lot.jpg" alt="Bottles of fine wine and a used car lot" />
+    <img src="images/content/wine-car-lot.jpg" alt="Bottles of fine wine and a used car lot" />
 	<figcaption>
 	    With proper maintenance, your design system should increase in value over time like a bottle of fine wine, rather than a used car that's just been driven off the lot. Image credit: <a href='https://flic.kr/p/on4ffK'>Sabin Paul Croce on Flickr</a> and <a href='https://flic.kr/p/e35AtD'>Ray Larabie on Flickr</a>
 	</figcaption>
